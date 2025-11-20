@@ -23,11 +23,11 @@ This is a fork of [Excalith Start Page](https://github.com/excalith/excalith-sta
 ## Deployment
 I'm a firm believer in self-hosting. I've seen many popular "free" hosting platforms come and go when the VC money ineveitably runs dry. Here is my strategy:
 
-0. Install Yarn `curl -o- -L https://yarnpkg.com/install.sh | bash`
-0. Install PM2 `npm install -g pm2`
+* Install Yarn `curl -o- -L https://yarnpkg.com/install.sh | bash`
+* Install PM2 `npm install -g pm2`
 1. Clone App `git clone git@github.com:RoseMaster3000/excalith-start-page.git`
 2. Build App `yarn install; yarn build;`
-3. Deploy `pm2 start npm --name "excalith" -- start -- -p 3001`
+3. Deploy PM2 `pm2 start npm --name "excalith" -- start -- -p 3001`
 4. Verify PM2 `pm2 list; pm2 save; pm2 startup;`
 5. Reverse Proxy with Caddy and [basic_auth](https://caddyserver.com/docs/caddyfile/directives/basic_auth)
 
