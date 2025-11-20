@@ -1,281 +1,522 @@
 {
-	"username": "Excalith",
-	"title": "Excalith Start Page",
-	"theme": {
-		"name": "Default",
-		"backgroundColor": "#121317",
-		"windowColor": "#1e212b",
-		"textColor": "#e2e2e2",
-		"black": "#16161e",
-		"red": "#ec6183",
-		"green": "#2ed8a2",
-		"yellow": "#e8b195",
-		"blue": "#2bc3de",
-		"magenta": "#d1aff8",
-		"cyan": "#62e0e2",
-		"white": "#e2e2e2",
-		"gray": "#97989d"
-	},
-	"wallpaper": {
-		"url": "assets/default-wallpaper.svg",
-		"easing": "ease-in-out",
-		"fadeIn": true,
-		"blur": false
-	},
-	"terminal": {
-		"fixedHeight": true,
-		"windowGlow": true,
-		"windowGlowColor": "#291f3325",
-		"textGlow": false,
-		"opacity": 0,
-		"blur": 16
-	},
-	"prompt": {
-		"ctrlC": true,
-		"placeholder": "command...",
-		"placeholderColor": "gray",
-		"userColor": "green",
-		"atColor": "gray",
-		"hostColor": "magenta",
-		"promptColor": "magenta",
-		"promptSymbol": "❯",
-		"caretColor": "green",
-		"selectionBg": "yellow",
-		"selectionFg": "black"
-	},
-	"fetch": {
-		"timeFormat": "HH:mm",
-		"dateFormat": "DD/MM/YYYY",
-		"titleColor": "yellow",
-		"image": "assets/default-icon.svg",
-		"data": [
-			"Time: {time}",
-			"Date: {date}",
-			"{seperator}",
-			"OS: {osName} {osVersion}",
-			"Theme: {theme}",
-			"{seperator}",
-			"Browser: {browser} {browserVersion}",
-			"Engine: {engineName}",
-			"{seperator}",
-			"{colors}"
-		]
-	},
-	"urlLaunch": {
-		"target": "_self",
-		"hoverColor": "magenta"
-	},
-	"search": {
-		"default": "https://google.com/search?q={}",
-		"target": "_self",
-		"shortcutRegex": "(!?[A-Za-z0-9]+) (.*)",
-		"shortcuts": [
-			{
-				"alias": "g",
-				"name": "Google Search",
-				"url": "https://google.com/search?q={}"
-			},
-			{
-				"alias": "d",
-				"name": "DuckDuckGo Search",
-				"url": "https://duckduckgo.com/?q={}"
-			},
-			{
-				"alias": "!d",
-				"name": "DuckDuckGo Lucky Search",
-				"url": "https://duckduckgo.com/?q=!ducky+{}"
-			},
-			{
-				"alias": "b",
-				"name": "Brave Search",
-				"url": "https://search.brave.com/search?q={}"
-			},
-			{
-				"alias": "gh",
-				"name": "Github Search",
-				"url": "https://github.com/search?q={}"
-			},
-			{
-				"alias": "s",
-				"name": "Stack Overflow Search",
-				"url": "https://stackoverflow.com/search?q={}"
-			},
-			{
-				"alias": "r",
-				"name": "Subreddit Search",
-				"url": "https://reddit.com/r/{}"
-			},
-			{
-				"alias": "w",
-				"name": "Wikipedia Search",
-				"url": "https://en.wikipedia.org/wiki/{}"
-			}
-		]
-	},
-	"sections": {
-		"list": [
-			{
-				"title": "General",
-				"color": "green",
-				"align": "left",
-				"links": [
-					{
-						"name": "Portfolio",
-						"url": "https://cancellek.com",
-						"icon": "mdi:web"
-					},
-					{
-						"name": "Keybase",
-						"url": "https://keybase.io/",
-						"icon": "fa-brands:keybase"
-					},
-					{
-						"name": "GPT",
-						"url": "https://chat.openai.com/",
-						"icon": "simple-icons:openai"
-					},
-					{
-						"name": "OCI",
-						"url": "https://www.oracle.com/cloud/",
-						"icon": "simple-icons:oracle"
-					}
-				]
-			},
-			{
-				"title": "Dev",
-				"color": "magenta",
-				"align": "left",
-				"links": [
-					{
-						"name": "GitHub",
-						"url": "https://github.com",
-						"icon": "mdi:github"
-					},
-					{
-						"name": "GitLab",
-						"url": "https://gitlab.com",
-						"icon": "ph:gitlab-logo-simple-fill"
-					},
-					{
-						"name": "Dev.to",
-						"url": "https://dev.to",
-						"icon": "material-symbols:logo-dev"
-					},
-					{
-						"name": "Stack Overflow",
-						"url": "https://stackoverflow.com/",
-						"icon": "mdi:stack-overflow"
-					}
-				]
-			},
-			{
-				"title": "Social",
-				"color": "cyan",
-				"align": "left",
-				"links": [
-					{
-						"name": "Twitter",
-						"url": "https://twitter.com",
-						"icon": "mdi:twitter"
-					},
-					{
-						"name": "Mastodon",
-						"url": "https://mastodon.social/",
-						"icon": "ri:mastodon-fill"
-					},
-					{
-						"name": "Reddit",
-						"url": "https://reddit.com",
-						"icon": "mdi:reddit"
-					},
-					{
-						"name": "Polywork",
-						"url": "https://polywork.com",
-						"icon": "simple-icons:polywork"
-					}
-				]
-			},
-			{
-				"title": "Gaming",
-				"color": "red",
-				"align": "left",
-				"links": [
-					{
-						"name": "Polygon",
-						"url": "https://polygon.com",
-						"icon": "uil:polygon"
-					},
-					{
-						"name": "IGN",
-						"url": "https://ign.com",
-						"icon": "mdi:currency-sign"
-					},
-					{
-						"name": "RPS",
-						"url": "https://rockpapershotgun.com/",
-						"icon": "ph:toilet-paper-bold"
-					},
-					{
-						"name": "80lv",
-						"url": "https://80.lv/",
-						"icon": "tabler:hand-rock"
-					}
-				]
-			},
-			{
-				"title": "Science",
-				"color": "blue",
-				"align": "left",
-				"links": [
-					{
-						"name": "PopSci",
-						"url": "https://popsci.com/",
-						"icon": "material-symbols:science"
-					},
-					{
-						"name": "Space",
-						"url": "fa6-solid:user-astronaut",
-						"icon": "mdi:reddit"
-					},
-					{
-						"name": "NASA",
-						"url": "https://blogs.nasa.gov/",
-						"icon": "simple-icons:nasa"
-					},
-					{
-						"name": "ESA",
-						"url": "https://blogs.esa.int/",
-						"icon": "mdi:black-mesa"
-					}
-				]
-			},
-			{
-				"title": "Tech",
-				"color": "yellow",
-				"align": "left",
-				"links": [
-					{
-						"name": "TechCrunch",
-						"url": "https://techcrunch.com/",
-						"icon": "game-icons:techno-heart"
-					},
-					{
-						"name": "Verge",
-						"url": "https://www.theverge.com/",
-						"icon": "arcticons:verge"
-					},
-					{
-						"name": "It's Foss",
-						"url": "https://itsfoss.com/",
-						"icon": "ri:mastodon-fill"
-					},
-					{
-						"name": "9To5 Linux",
-						"url": "https://9to5linux.com/",
-						"icon": "uil:linux"
-					}
-				]
-			}
-		]
-	}
+    "username": "shahrose",
+    "title": "Start Page",
+    "theme": {
+        "name": "Default",
+        "backgroundColor": "#121317",
+        "windowColor": "#1e212b",
+        "textColor": "#e2e2e2",
+        "black": "#16161e",
+        "red": "#ec6183",
+        "green": "#2ed8a2",
+        "yellow": "#e8b195",
+        "blue": "#2bc3de",
+        "magenta": "#d1aff8",
+        "cyan": "#62e0e2",
+        "white": "#e2e2e2",
+        "gray": "#97989d"
+    },
+    "wallpaper": {
+        "url": "assets/default-wallpaper.svg",
+        "easing": "ease-in-out",
+        "fadeIn": true,
+        "blur": false
+    },
+    "terminal": {
+        "fixedHeight": true,
+        "windowGlow": false,
+        "windowGlowColor": "#291f3325",
+        "textGlow": false,
+        "opacity": 0,
+        "blur": 16
+    },
+    "prompt": {
+        "ctrlC": true,
+        "placeholder": "command...",
+        "placeholderColor": "gray",
+        "userColor": "green",
+        "atColor": "gray",
+        "hostColor": "magenta",
+        "promptColor": "magenta",
+        "promptSymbol": "❯",
+        "caretColor": "green",
+        "selectionBg": "yellow",
+        "selectionFg": "black"
+    },
+    "fetch": {
+        "timeFormat": "hh:mm a",
+        "dateFormat": "MM/DD/YYYY",
+        "titleColor": "yellow",
+        "image": "assets/default-icon.svg",
+        "data": [
+            "Time: {time}",
+            "Date: {date}",
+            "{seperator}",
+            "OS: Arch",
+            "Theme: {theme}",
+            "{seperator}",
+            "Browser: {browser} {browserVersion}",
+            "Engine: {engineName}",
+            "{seperator}",
+            "{colors}"
+        ]
+    },
+    "urlLaunch": {
+        "target": "_self",
+        "hoverColor": "magenta"
+    },
+    "search": {
+        "default": "https://duckduckgo.com/?q={}",
+        "target": "_self",
+        "shortcutRegex": "(!?[A-Za-z0-9]+) (.*)",
+        "shortcuts": [
+            {
+                "alias": "g",
+                "name": "Google Search",
+                "url": "https://google.com/search?q={}"
+            },
+            {
+                "alias": "d",
+                "name": "DuckDuckGo Search",
+                "url": "https://duckduckgo.com/?q={}"
+            },
+            {
+                "alias": "!d",
+                "name": "DuckDuckGo Lucky Search",
+                "url": "https://duckduckgo.com/?q=!ducky+{}"
+            },
+            {
+                "alias": "gh",
+                "name": "Github Search",
+                "url": "https://github.com/search?q={}"
+            },
+            {
+                "alias": "s",
+                "name": "Stack Overflow Search",
+                "url": "https://stackoverflow.com/search?q={}"
+            },
+            {
+                "alias": "r",
+                "name": "Subreddit Search",
+                "url": "https://reddit.com/r/{}"
+            },
+            {
+                "alias": "w",
+                "name": "Wikipedia Search",
+                "url": "https://en.wikipedia.org/wiki/{}"
+            }
+        ]
+    },
+    "sections": {
+        "list": [
+            {
+                "title": "Communication",
+                "color": "green",
+                "align": "left",
+                "links": [
+                    {
+                        "name": "Persona Mail",
+                        "url": "https://mail.google.com/mail/u/0/#inbox",
+                        "icon": "mdi:gmail"
+                    },
+                    {
+                        "name": "Business Mail",
+                        "url": "https://mail.google.com/mail/u/0/#inbox",
+                        "icon": "mdi:gmail"
+                    },
+                    {
+                        "name": "Wyzant",
+                        "url": "https://www.wyzant.com/online/tutor/startlesson",
+                        "icon": "mdi:teach"
+                    },
+                    {
+                        "name": "Google Voice",
+                        "url": "https://voice.google.com/u/0/calls",
+                        "icon": "mdi:phone-voip"
+                    },
+                    {
+                        "name": "WhatsApp",
+                        "url": "https://web.whatsapp.com/",
+                        "icon": "mdi:whatsapp"
+                    },
+                    {
+                        "name": "Daytona State",
+                        "url": "https://csprd.daytonastate.edu/psc/CSPRD/EMPLOYEE/SA/s/WEBLIB_HCX_GN.H_SPRINGBOARD.FieldFormula.IScript_Main",
+                        "icon": "mdi:school"
+                    },
+                    {
+                        "name": "BlueBubbles",
+                        "url": "https://bluebubbles.app/web/#/",
+                        "icon": "mdi:message-bubble"
+                    },
+                    {
+                        "name": "Slack",
+                        "url": "https://app.slack.com/client/T0APVEWRX",
+                        "icon": "mdi:slack"
+                    },
+                    {
+                        "name": "NotebookLM",
+                        "url": "https://notebooklm.google.com",
+                        "icon": "mdi:notebook"
+                    }
+                ]
+            },
+            {
+                "title": "Work",
+                "color": "blue",
+                "align": "left",
+                "links": [
+                    {
+                        "name": "Calendar",
+                        "url": "https://calendar.google.com/calendar",
+                        "icon": "mdi:calendar"
+                    },
+                    {
+                        "name": "PayPal",
+                        "url": "https://www.paypal.com/invoice/s/manage",
+                        "icon": "simple-icons:paypal"
+                    },
+                    {
+                        "name": "Replit",
+                        "url": "https://replit.com/repls",
+                        "icon": "simple-icons:replit"
+                    },
+                    {
+                        "name": "CodePen",
+                        "url": "https://codepen.io/RoseMaster3000",
+                        "icon": "mdi:codepen"
+                    },
+                    {
+                        "name": "Freelancer",
+                        "url": "https://www.freelancer.com/insights/bids",
+                        "icon": "simple-icons:freelancer"
+                    },
+                    {
+                        "name": "Upwork",
+                        "url": "https://www.upwork.com/ab/proposals/",
+                        "icon": "simple-icons:upwork"
+                    },
+                    {
+                        "name": "Notion",
+                        "url": "https://www.notion.so/florasoft",
+                        "icon": "simple-icons:notion"
+                    }
+                ]
+            },
+            {
+                "title": "Software Dev",
+                "color": "magenta",
+                "align": "left",
+                "links": [
+                    {
+                        "name": "Robotix (GitLab)",
+                        "url": "https://gitlab.com/florasoft/robotixgame#robotix",
+                        "icon": "mdi:gitlab"
+                    },
+                    {
+                        "name": "GitHub",
+                        "url": "https://github.com/stars/RoseMaster3000/lists/focus",
+                        "icon": "mdi:github"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "url": "https://cloud.mongodb.com",
+                        "icon": "simple-icons:mongodb"
+                    },
+                    {
+                        "name": "Google Cloud",
+                        "url": "https://console.cloud.google.com",
+                        "icon": "simple-icons:googlecloud"
+                    },
+                    {
+                        "name": "Cloudflare",
+                        "url": "https://dash.cloudflare.com",
+                        "icon": "simple-icons:cloudflare"
+                    },
+                    {
+                        "name": "GoDaddy",
+                        "url": "https://dcc.godaddy.com/control/portfolio",
+                        "icon": "mdi:domain"
+                    },
+                    {
+                        "name": "AUR",
+                        "url": "https://aur.archlinux.org/packages/",
+                        "icon": "simple-icons:archlinux"
+                    },
+                    {
+                        "name": "Florasoft",
+                        "url": "https://florasoft.live",
+                        "icon": "mdi:web"
+                    },
+                    {
+                        "name": "LinkedIn",
+                        "url": "https://www.linkedin.com/in/shahrose-kasim",
+                        "icon": "mdi:linkedin"
+                    },
+                    {
+                        "name": "Trello",
+                        "url": "https://trello.com/rosemaster/boards",
+                        "icon": "mdi:trello"
+                    }
+                ]
+            },
+            {
+                "title": "Database & Assets",
+                "color": "yellow",
+                "align": "left",
+                "links": [
+                    {
+                        "name": "Google Drive",
+                        "url": "https://drive.google.com/drive/u/0/my-drive",
+                        "icon": "simple-icons:googledrive"
+                    },
+                    {
+                        "name": "Google Photos",
+                        "url": "https://photos.google.com/sharing",
+                        "icon": "mdi:google-photos"
+                    },
+                    {
+                        "name": "LibGen",
+                        "url": "https://libgen.is/search.php",
+                        "icon": "mdi:book-open-variant"
+                    },
+                    {
+                        "name": "DaFont",
+                        "url": "https://www.dafont.com/themes.php",
+                        "icon": "mdi:format-font"
+                    },
+                    {
+                        "name": "MDI Icons",
+                        "url": "https://materialdesignicons.com/",
+                        "icon": "mdi:vector-square"
+                    },
+                    {
+                        "name": "NerdFonts",
+                        "url": "https://www.nerdfonts.com/cheat-sheet",
+                        "icon": "mdi:code-braces"
+                    },
+                    {
+                        "name": "Itch.io",
+                        "url": "https://itch.io/dashboard",
+                        "icon": "simple-icons:itchdotio"
+                    },
+                    {
+                        "name": "AccuWeather",
+                        "url": "https://www.accuweather.com",
+                        "icon": "mdi:weather-partly-cloudy"
+                    }
+                ]
+            },
+            {
+                "title": "Entertainment",
+                "color": "red",
+                "align": "left",
+                "links": [
+                    {
+                        "name": "YouTube",
+                        "url": "https://www.youtube.com/feed/subscriptions",
+                        "icon": "mdi:youtube"
+                    },
+                    {
+                        "name": "Twitch",
+                        "url": "https://www.twitch.tv/RoseMaster3000",
+                        "icon": "mdi:twitch"
+                    },
+                    {
+                        "name": "Twitter",
+                        "url": "https://twitter.com/rosemaster3000",
+                        "icon": "mdi:twitter"
+                    },
+                    {
+                        "name": "Discord",
+                        "url": "https://discord.com/channels/@me",
+                        "icon": "mdi:discord"
+                    },
+                    {
+                        "name": "HiAnime",
+                        "url": "https://hianime.to/home",
+                        "icon": "mdi:television-play"
+                    },
+                    {
+                        "name": "Mahjong Soul",
+                        "url": "https://mahjongsoul.game.yo-star.com/",
+                        "icon": "mdi:cards-playing-outline"
+                    },
+                    {
+                        "name": "18xx Games",
+                        "url": "https://18xx.games/",
+                        "icon": "mdi:train"
+                    }
+                ]
+            },
+            {
+                "title": "Tools",
+                "color": "cyan",
+                "align": "left",
+                "links": [
+                    {
+                        "name": "Vector Magic",
+                        "url": "https://vectormagic.com/",
+                        "icon": "mdi:vector-curve"
+                    },
+                    {
+                        "name": "Coolors",
+                        "url": "https://coolors.co/generate",
+                        "icon": "mdi:palette"
+                    },
+                    {
+                        "name": "iLovePDF",
+                        "url": "https://www.ilovepdf.com/",
+                        "icon": "mdi:file-pdf-box"
+                    },
+                    {
+                        "name": "Dillinger",
+                        "url": "https://dillinger.io/",
+                        "icon": "mdi:markdown"
+                    },
+                    {
+                        "name": "TinyURL",
+                        "url": "https://tinyurl.com/",
+                        "icon": "mdi:link-variant"
+                    },
+                    {
+                        "name": "OnShape",
+                        "url": "https://cad.onshape.com/documents",
+                        "icon": "mdi:cube-outline"
+                    },
+                    {
+                        "name": "iCloud Find",
+                        "url": "https://www.icloud.com/find",
+                        "icon": "mdi:apple"
+                    }
+                ]
+            },
+            {
+                "title": "Search & AI",
+                "color": "white",
+                "align": "left",
+                "links": [
+                    {
+                        "name": "Grok",
+                        "url": "https://grok.com/",
+                        "icon": "mdi:robot"
+                    },
+                    {
+                        "name": "DeepSeek",
+                        "url": "https://chat.deepseek.com/",
+                        "icon": "mdi:brain"
+                    },
+                    {
+                        "name": "Gemini",
+                        "url": "https://gemini.google.com/app",
+                        "icon": "simple-icons:googlegemini"
+                    },
+                    {
+                        "name": "Phind",
+                        "url": "https://www.phind.com/",
+                        "icon": "mdi:magnify"
+                    },
+                    {
+                        "name": "Google Maps",
+                        "url": "https://www.google.com/maps",
+                        "icon": "mdi:map-marker"
+                    },
+                    {
+                        "name": "Google Flights",
+                        "url": "https://www.google.com/flights",
+                        "icon": "mdi:airplane"
+                    },
+                    {
+                        "name": "Nyaa",
+                        "url": "https://nyaa.si/",
+                        "icon": "mdi:cat"
+                    },
+                    {
+                        "name": "PirateBay",
+                        "url": "https://thepiratebay.org/index.html",
+                        "icon": "mdi:skull-crossbones"
+                    }
+                ]
+            },
+            {
+                "title": "Shopping",
+                "color": "magenta",
+                "align": "left",
+                "links": [
+                    {
+                        "name": "Amazon",
+                        "url": "https://www.amazon.com/gp/css/order-history",
+                        "icon": "mdi:amazon"
+                    },
+                    {
+                        "name": "AliExpress"
+,                        "url": "https://my.aliexpress.com/wishlist/wish_list_product_list.htm",
+                        "icon": "simple-icons:aib"
+                    },
+                    {
+                        "name": "MechGroupBuys",
+                        "url": "https://www.mechgroupbuys.com/",
+                        "icon": "mdi:keyboard"
+                    },
+                    {
+                        "name": "Uber Eats",
+                        "url": "https://www.ubereats.com/",
+                        "icon": "simple-icons:ubereats"
+                    },
+                    {
+                        "name": "PECO",
+                        "url": "https://secure.peco.com/accounts/dashboard",
+                        "icon": "mdi:lightning-bolt"
+                    }
+                ]
+            },
+            {
+                "title": "Home Lab",
+                "color": "green",
+                "align": "left",
+                "links": [
+                    {
+                        "name": "Home Assistant",
+                        "url": "https://hass.shahrose.com/lovelace/default_view",
+                        "icon": "simple-icons:homeassistant"
+                    },
+                    {
+                        "name": "Fedora Server",
+                        "url": "https://10.0.0.100:9090/system/terminal",
+                        "icon": "simple-icons:fedora"
+                    },
+                    {
+                        "name": "Mainsail",
+                        "url": "http://mainsail.local",
+                        "icon": "mdi:printer-3d"
+                    },
+                    {
+                        "name": "Thingiverse",
+                        "url": "https://www.thingiverse.com/rosemaster3000/collections",
+                        "icon": "simple-icons:thingiverse"
+                    },
+                    {
+                        "name": "Jellyfin",
+                        "url": "https://tube.shahrose.com/web/#/home.html",
+                        "icon": "simple-icons:jellyfin"
+                    },
+                    {
+                        "name": "Portainer",
+                        "url": "http://pi.local:3000/workspaces?filter=&page=1",
+                        "icon": "simple-icons:docker"
+                    },
+                    {
+                        "name": "VS Code Dev",
+                        "url": "https://vscode.dev/",
+                        "icon": "simple-icons:visualstudiocode"
+                    },
+                    {
+                        "name": "Tailscale",
+                        "url": "https://login.tailscale.com/admin/machines",
+                        "icon": "simple-icons:tailscale"
+                    }
+                ]
+            }
+        ]
+    }
 }

@@ -27,7 +27,12 @@ const Search = ({ commandChange, selectionChange }) => {
 			// Submit prompt
 			if (e.key === "Enter") {
 				const search_function = isCtrlPressed ? DefaultSearch : RunCommand
-				search_function(command, settings)
+				// Use the manually selected item (via Tab) OR the first "best guess" match
+				let finalCommand = command
+				if (!isCtrlPressed && filteredItems.length > 0) {
+					finalCommand = selection || filteredItems[0]
+				}
+				search_function(finalCommand, settings)
 			}
 			// Clear prompt
 			else if (isCtrlPressed && e.code === "KeyC") {
@@ -101,7 +106,8 @@ const Search = ({ commandChange, selectionChange }) => {
 		if (command === "") {
 			selectionChange("")
 		} else {
-			const filtered = items.filter((item) => item.startsWith(command))
+			// const filtered = items.filter((item) => item.startsWith(command))
+			const filtered = items.filter((item) => item.toLowerCase().includes(command))
 			setFilteredItems(filtered)
 		}
 		// eslint-disable-next-line
