@@ -26,14 +26,6 @@ export const SettingsProvider = ({ children }) => {
 				.then((data) => setSettings(data))
 				.catch(() => setSettings(defaultConfig))
 		} else {
-			// FIX 2: Ignore localStorage so the app always uses your settings.json file
-			
-			// data = localStorage.getItem(SETTINGS_KEY)
-			// if (data === "undefined") {
-			//     console.log("LocalStorage configuration reset to defaults.")
-			// }
-			// setSettings(data ? JSON.parse(data) : defaultConfig)
-
 			// Always use the file as the source of truth
 			setSettings(defaultConfig)
 		}
