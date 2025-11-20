@@ -126,7 +126,7 @@
                     },
                     {
                         "name": "Wyzant",
-                        "url": "https://www.wyzant.com/online/tutor/startlesson",
+                        "url": "https://www.wyzant.com/tutor/messaging",
                         "icon": "mdi:teach"
                     },
                     {
@@ -140,7 +140,7 @@
                         "icon": "mdi:whatsapp"
                     },
                     {
-                        "name": "Daytona State",
+                        "name": "Daytona State College",
                         "url": "https://csprd.daytonastate.edu/psc/CSPRD/EMPLOYEE/SA/s/WEBLIB_HCX_GN.H_SPRINGBOARD.FieldFormula.IScript_Main",
                         "icon": "mdi:school"
                     },
@@ -150,14 +150,19 @@
                         "icon": "mdi:message-bubble"
                     },
                     {
-                        "name": "Slack",
+                        "name": "Hive76 Slack",
                         "url": "https://app.slack.com/client/T0APVEWRX",
-                        "icon": "mdi:slack"
+                        "icon": "mdi:hexagon-slice-4"
                     },
                     {
                         "name": "NotebookLM",
                         "url": "https://notebooklm.google.com",
                         "icon": "mdi:notebook"
+                    },
+                    {
+                    	"name": "Splitwise",
+                    	"url": "https://secure.splitwise.com/#/groups/63722447",
+                    	"icon": "mdi:cash-multiple"
                     }
                 ]
             },
@@ -486,8 +491,8 @@
                         "icon": "simple-icons:fedora"
                     },
                     {
-                        "name": "Mainsail",
-                        "url": "http://mainsail.local",
+                        "name": "Elegoo 3D Printer",
+                        "url": "http://10.0.0.211/network-device-manager/network/control",
                         "icon": "mdi:printer-3d"
                     },
                     {
@@ -496,7 +501,7 @@
                         "icon": "simple-icons:thingiverse"
                     },
                     {
-                        "name": "Jellyfin",
+                        "name": "RoseTube Jellyfin",
                         "url": "https://tube.shahrose.com/web/#/home.html",
                         "icon": "simple-icons:jellyfin"
                     },
