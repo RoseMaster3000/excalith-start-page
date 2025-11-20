@@ -40,15 +40,13 @@ const Link = ({ linkData, filter, selection, sectionColor }) => {
 				href={url}
 				rel="noopener noreferrer nofollow"
 				target={target}
-				title={name}
-			>
-				<span 
+				title={name}>
+				<span
 					className="block w-8 h-8 text-center transition-all duration-200"
-					style={{ 
-						color: isSelected ? 'inherit' : `var(--${sectionColor})`,
-						filter: isSelected ? 'none' : 'saturate(0.4)'
-					}}
-				>
+					style={{
+						color: isSelected ? "inherit" : `var(--${sectionColor})`,
+						filter: isSelected ? "none" : "saturate(0.4)"
+					}}>
 					<Icon icon={icon} className="w-full h-full" />
 				</span>
 			</a>
