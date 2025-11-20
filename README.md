@@ -13,7 +13,7 @@ This is a fork of [Excalith Start Page](https://github.com/excalith/excalith-sta
 * Flexible Search (sub-string search for more matching)
 * Removed Link Text-Labels (I now use name field as a place to list "tags" which works better with my Flexible Search feature)
 * Changed Lists (renders as a grid of large icons)
-* Removed `setting.json` Caching (I like to edit the `settings.json` by remoting into my server directly, I prefer my text editor over the build in `config edit` tool)
+* Removed `setting.json` Caching (I like to edit the `settings.json` by remoting into my server directly, I prefer my text editor over the built in `config edit` tool)
 
 <img src=".github/rosemaster.png" />
 
