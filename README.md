@@ -30,7 +30,7 @@ I'm a firm believer in self-hosting. I've seen many popular "free" hosting platf
 3. Deploy PM2 `pm2 start npm --name "excalith" -- start -- -p 3001`
 4. Verify PM2 `pm2 list; pm2 save; pm2 startup;`
 5. Reverse Proxy with Caddy and [basic_auth](https://caddyserver.com/docs/caddyfile/directives/basic_auth)
-
+6. Rebuild PM2 `yarn build; pm2 reload excalith;`
 
 ## License
 
