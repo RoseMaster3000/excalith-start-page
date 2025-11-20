@@ -25,10 +25,9 @@ I'm a firm believer in self-hosting. I've seen many popular "free" hosting platf
 
 0. Install Yarn `curl -o- -L https://yarnpkg.com/install.sh | bash`
 0. Install PM2 `npm install -g pm2`
-
 1. Clone App `git clone git@github.com:RoseMaster3000/excalith-start-page.git`
 2. Build App `yarn install; yarn build;`
-3. Deploy PM2 `PORT=3001 pm2 start yarn --name "excalith" -- start`
+3. Deploy `pm2 start npm --name "excalith" -- start -- -p 3001`
 4. Verify PM2 `pm2 list; pm2 save; pm2 startup;`
 5. Reverse Proxy with Caddy and [basic_auth](https://caddyserver.com/docs/caddyfile/directives/basic_auth)
 
