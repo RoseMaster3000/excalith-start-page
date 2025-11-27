@@ -230,8 +230,8 @@
                     },
                     {
                         "name": "Cloudflare",
-                        "url": "https://dash.cloudflare.com",
-                        "icon": "simple-icons:cloudflare"
+                        "url": "https://dash.cloudflare.com/65d2c7774bfc1d3430e645bf34f84a20/shahrose.com/dns/records",
+                        "@icon": "simple-icons:cloudflare"
                     },
                     {
                         "name": "Google Cloud",
