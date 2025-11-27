@@ -20,14 +20,16 @@ export const SettingsProvider = ({ children }) => {
 		let data
 
 		if (IS_DOCKER) {
-			// FIX 1: Add timestamp to bypass browser cache in Docker mode
-			fetch(`/api/loadSettings?t=${new Date().getTime()}`)
+			fetch("/api/loadSettings")
 				.then((response) => response.json())
 				.then((data) => setSettings(data))
 				.catch(() => setSettings(defaultConfig))
 		} else {
-			// Always use the file as the source of truth
-			setSettings(defaultConfig)
+			data = localStorage.getItem(SETTINGS_KEY)
+			if (data === "undefined") {
+				console.log("LocalStorage configuration reset to defaults.")
+			}
+			setSettings(data ? JSON.parse(data) : defaultConfig)
 		}
 	}, [])
 
@@ -43,9 +45,6 @@ export const SettingsProvider = ({ children }) => {
 					body: JSON.stringify(settings)
 				})
 			} else {
-				// Optional: You can keep this to save changes made in the UI,
-				// but since we disabled loading it above, these saves won't persist
-				// across reloads (which is exactly what you want for file-based editing).
 				localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings))
 			}
 

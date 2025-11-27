@@ -1,0 +1,679 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "old_links.txt",
+			"settings":
+			{
+				"buffer_size": 4111,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/settings.json",
+			"settings":
+			{
+				"buffer_size": 19936,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"toml",
+				"Set Syntax: TOML"
+			],
+			[
+				"i3",
+				"Set Syntax: i3-wm Config"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"caddy",
+				"Set Syntax: Caddyfile"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"JSON",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"close",
+				"Project: Close"
+			],
+			[
+				"CLOSE",
+				"Project: Close"
+			],
+			[
+				"bash",
+				"Set Syntax: Bash"
+			],
+			[
+				"lang",
+				"Set Syntax: RenpyLanguage"
+			],
+			[
+				"zsh",
+				"UI: Customize Color Scheme"
+			],
+			[
+				"sett",
+				"Preferences: Settings"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"terminal",
+				"Preferences: Terminal Settings – Default"
+			],
+			[
+				"installk",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/shahrose/Tools/excalith-start-page",
+		"/home/shahrose/Tools/excalith-start-page/data"
+	],
+	"file_history":
+	[
+		"/home/shahrose/Tools/excalith-start-page/README.md",
+		"/home/shahrose/Projects/arch-notes/Cheatsheet/kindle",
+		"/home/shahrose/Projects/arch-notes/Cheatsheet/caddy",
+		"/home/shahrose/Projects/arch-notes/Configs/CaddyFile",
+		"/home/shahrose/Projects/arch-notes/Configs/caddy.service",
+		"/home/shahrose/Projects/arch-notes/Configs/calibre.service",
+		"/home/shahrose/Downloads/opds.atom",
+		"/home/shahrose/Projects/arch-notes/Configs/svelteMCP.config.cjs",
+		"/home/shahrose/Projects/arch-notes/Configs/i3-config.txt",
+		"/home/shahrose/Projects/noon-optimizer/WebGUI/index.html",
+		"/home/shahrose/.icons/default/index.theme",
+		"/home/shahrose/Projects/arch-notes/Cheatsheet/PiNAS",
+		"/usr/share/icons/Papirus-Dark/index.theme",
+		"/home/shahrose/Projects/arch-notes/Symlinks/i3-config",
+		"/home/shahrose/Projects/arch-notes/todo.txt",
+		"/home/shahrose/Projects/arch-notes/Cheatsheet/docker-compose",
+		"/run/media/shahrose/Kindle/README.md",
+		"/home/shahrose/Documents/ARCHIVES/mega/FREELANCING/lorry/brute.py",
+		"/home/shahrose/Documents/❤",
+		"/run/user/1000/gvfs/smb-share:server=nas.local,share=nas/hdd4000/.hidden",
+		"/home/shahrose/Projects/arch-notes/.gitignore",
+		"/home/shahrose/Projects/arch-notes/Cheatsheet/Home-Assistant",
+		"/home/shahrose/Projects/arch-notes/Arch Install/4-arch-pacman",
+		"/home/shahrose/Projects/arch-notes/Arch Install/7-arch-apps",
+		"/home/shahrose/Projects/arch-notes/Arch Install/5-arch-gui",
+		"/home/shahrose/Projects/arch-notes/Configs/i3-rust-status.txt",
+		"/home/shahrose/Projects/arch-notes/Cheatsheet/Arch",
+		"/home/shahrose/core.db",
+		"/home/shahrose/Projects/arch-notes/Cheatsheet/1-23-25-notes",
+		"/home/shahrose/Projects/arch-notes/Cheatsheet/Browser",
+		"/home/shahrose/Projects/arch-notes/Cheatsheet/valetudo",
+		"/home/shahrose/Projects/arch-notes/Arch Install/1-intro",
+		"/home/shahrose/Projects/arch-notes/Configs/browser-nightTab.json",
+		"/home/shahrose/Projects/RobotixCards/hex.py",
+		"/home/shahrose/homelab-stuff",
+		"/run/user/1000/gvfs/smb-share:server=nas.local,share=nas/hdd3000/Code Geass (2006)/Season 4/Code Geass 1 - Initiation.nfo",
+		"/home/shahrose/Projects/arch-notes/Configs/sublime-settings.txt",
+		"/home/shahrose/Tools/split2flac/split2flac",
+		"/home/shahrose/.ssh/homelab.pub",
+		"/run/user/1000/gvfs/smb-share:server=nas.local,share=nas/hdd3000/Bluey (2018)/Season 1/[TGx]Do.txt",
+		"/home/shahrose/.ssh/known_hosts",
+		"/home/shahrose/Projects/ESP/dfplayer/notes",
+		"/home/shahrose/Projects/RobotixCards/sheets/robots.csv",
+		"/home/shahrose/Projects/arch-notes/Arch Install/8-appearance",
+		"/home/shahrose/Projects/arch-notes/Configs/picom.conf",
+		"/home/shahrose/Projects/arch-notes/Arch Install/3-arch-install",
+		"/home/shahrose/lena",
+		"/home/shahrose/Projects/Project-Tenbou/BOILER.sublime-project",
+		"/home/shahrose/nano",
+		"/etc/xdg/picom.conf",
+		"/home/shahrose/picom ",
+		"/home/shahrose/Projects/MIO/mio/__init__.py",
+		"/home/shahrose/Projects/MIO/local.py",
+		"/home/shahrose/Projects/arch-notes/Arch Install/6-arch-basics",
+		"/home/shahrose/.alacritty.toml",
+		"/home/shahrose/Projects/arch-notes/Arch Install/2-arch-boot",
+		"/home/shahrose/.config/i3status-rust/config.toml",
+		"/home/shahrose/.zoom/logs/zoom_stdout_stderr.log",
+		"/home/shahrose/.config/gazatu.xyz/emoji-picker.ini",
+		"/home/shahrose/Michael",
+		"/home/shahrose/Projects/pyschool/Unit13 - Algorithms/0_Preface.py",
+		"/home/shahrose/Projects/pyschool/Unit08 - Import/1_MultiFileCode.py",
+		"/home/shahrose/Projects/arch-notes/Configs/alacritty.toml",
+		"/home/shahrose/Projects/arch-notes/Configs/.p10k.zsh",
+		"/home/shahrose/.ssh/gitlab2",
+		"/home/shahrose/Projects/arch-notes/Configs/browser-DarkReader.json",
+		"/home/shahrose/Downloads/Dark-Reader-Settings.json",
+		"/var/lib/hass/configuration.yaml",
+		"/var/lib/hass/automations.yaml",
+		"/home/shahrose/Downloads/Redirector (1).json",
+		"/home/shahrose/Projects/arch-notes/Configs/browser-Redirector.json",
+		"/home/shahrose/Projects/arch-notes/Configs/thunar.uca.xml",
+		"/home/shahrose/.config/Thunar/uca.xml",
+		"/home/shahrose/Downloads/phone+bluebubbles",
+		"/home/shahrose/Downloads/nightTab backup - 2023.08.11 - 00 31 43.json",
+		"/home/shahrose/Projects/arch-notes/Cheatsheet/Linux",
+		"/home/shahrose/Projects/arch-notes/Symlinks/config.toml",
+		"/etc/pacman.d/mirrorlist",
+		"/etc/X11/xorg.conf",
+		"/home/shahrose/Projects/arch-notes/fixpacman.sh",
+		"/home/shahrose/Work/turn_game/Project+Submission.txt",
+		"/home/shahrose/Work/turn_game/text.txt",
+		"/home/shahrose/Projects/Florasoft-Server/static/svg/tempfile.svg",
+		"/home/shahrose/Projects/Florasoft-Server/static/svg/tulip.svg",
+		"/home/shahrose/tempfile.svg",
+		"/home/shahrose/Projects/arch-notes/Cheatsheet/Windows",
+		"/home/shahrose/Tools/AirStatus/main.py",
+		"/home/shahrose/Platformer/Assets/PlayerControl.cs",
+		"/home/shahrose/Downloads/AlphaJong_1.3.1.user.js",
+		"/home/shahrose/.zprofile",
+		"/etc/security/pam_env.conf",
+		"/home/shahrose/Projects/arch-notes/Symlinks/.zshrc",
+		"/home/shahrose/Projects/arch-notes/Configs/zshrc",
+		"/home/shahrose/.bash_profile",
+		"/home/shahrose/Downloads/nick.py",
+		"/home/shahrose/Downloads/dtn.py",
+		"/home/shahrose/Downloads/GIMP3-ML-GIMP3-ML/install.cmd",
+		"/home/shahrose/School/AM2020/am-schedule",
+		"/home/shahrose/Projects/renpy/Love-Logic/errors.txt",
+		"/home/shahrose/Documents/h",
+		"/home/shahrose/.gitconfig",
+		"/home/shahrose/School/AM2020/schedule",
+		"/home/shahrose/Projects/renpy/Love-Logic/README.md",
+		"/usr/share/themes/Materia-dark/gtk-4.0/gtk.css",
+		"/usr/share/themes/Materia-dark/gtk-3.0/gtk.css",
+		"/home/shahrose/Projects/arch-notes/Arch Install/9-conclusion",
+		"/home/shahrose/.ssh/config",
+		"/home/shahrose/.config/i3/config",
+		"/home/shahrose/.zshrc",
+		"/home/shahrose/.config/config.toml",
+		"/home/shahrose/.config/rofi/config.rasi",
+		"/home/shahrose/Projects/arch-notes/Configs/rofi-themes/shahrose.rasi",
+		"/home/shahrose/.Xdefaults",
+		"/home/shahrose/.alacritty.yml",
+		"/home/shahrose/Projects/arch-notes/Configs/alacritty.yml",
+		"/home/shahrose/.alacritty",
+		"/home/shahrose/.config/sublime-text/Packages/Terminal/Terminal.sublime-settings"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 149.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "old_links.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "data/settings.json",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19936,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								208,
+								208
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										207,
+										208
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										201,
+										202
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 50.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.assistant_ai":
+	{
+		"height": 316.0
+	},
+	"output.exec":
+	{
+		"height": 218.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 196.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "EXCALITH.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"kind",
+				"Cheatsheet/kindle"
+			],
+			[
+				"nigh",
+				"Configs/browser-nightTab.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/arch-notes/ARCH.sublime-project"
+			],
+			[
+				"cc",
+				"~/Projects/Minecraft/pokejong-mrcon/CC.sublime-project"
+			],
+			[
+				"pay",
+				"~/.ssh/PaypalBridge.sublime-project"
+			],
+			[
+				"zig",
+				"~/Projects/ZigZag-racing-3D/ZigZagRacer.sublime-project"
+			],
+			[
+				"robot",
+				"~/Projects/RobotixCards/ROBOT-CARDS.sublime-project"
+			],
+			[
+				"CMA",
+				"~/Projects/CAMS/CAMS.sublime-project"
+			],
+			[
+				"nar",
+				"~/Projects/Narde-Server/NARDE-SERVER.sublime-project"
+			],
+			[
+				"esp",
+				"~/Projects/ESP/ESP.sublime-project"
+			],
+			[
+				"ar",
+				"~/Projects/arch-notes/ARCH.sublime-project"
+			],
+			[
+				"rii",
+				"~/Projects/RiichiClubs/RIICHI-CLUBS.sublime-project"
+			],
+			[
+				"pys",
+				"~/Projects/pyschool/PYSCHOOL.sublime-project"
+			],
+			[
+				"py",
+				"~/Projects/pyschool/PYSCHOOL.sublime-project"
+			],
+			[
+				"auto",
+				"~/Projects/AutoResume/AutoResume.sublime-project"
+			],
+			[
+				"arc",
+				"~/Projects/arch-notes/ARCH.sublime-project"
+			],
+			[
+				"na",
+				"~/Projects/Narde/NARDE.sublime-project"
+			],
+			[
+				"life",
+				"~/Projects/LIFE/LIFE.sublime-project"
+			],
+			[
+				"nard",
+				"~/Projects/Narde-Server/NARDE-SERVER.sublime-project"
+			],
+			[
+				"po",
+				"~/Projects/pyschool/PYSCHOOL.sublime-project"
+			],
+			[
+				"n",
+				"~/Projects/Narde/NARDE.sublime-project"
+			],
+			[
+				"ai",
+				"~/Projects/AI-Tools/AI.sublime-project"
+			],
+			[
+				"close",
+				"~/Projects/Florasoft-Server/FLORASOFT.sublime-project"
+			],
+			[
+				"pla",
+				"~/Platformer/platformer.sublime-project"
+			],
+			[
+				"ASI",
+				"~/Projects/AI-Tools/AI.sublime-project"
+			],
+			[
+				"fl",
+				"~/Projects/Florasoft-Server/FLORASOFT.sublime-project"
+			],
+			[
+				"bal",
+				"~/Projects/Narde/BACKGAMMON.sublime-project"
+			],
+			[
+				"sc",
+				"~/School/SCHOOL.sublime-project"
+			],
+			[
+				"back",
+				"~/Projects/Narde/BACKGAMMON.sublime-project"
+			],
+			[
+				"schoo",
+				"~/School/SCHOOL.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 297.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 173.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

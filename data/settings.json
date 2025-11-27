@@ -140,11 +140,6 @@
                         "icon": "mdi:whatsapp"
                     },
                     {
-                        "name": "Daytona State College",
-                        "url": "https://csprd.daytonastate.edu/psc/CSPRD/EMPLOYEE/SA/s/WEBLIB_HCX_GN.H_SPRINGBOARD.FieldFormula.IScript_Main",
-                        "icon": "mdi:school"
-                    },
-                    {
                         "name": "BlueBubbles",
                         "url": "https://bluebubbles.app/web/#/",
                         "icon": "mdi:message-bubble"
@@ -202,6 +197,11 @@
                         "icon": "simple-icons:upwork"
                     },
                     {
+                        "name": "Daytona State College",
+                        "url": "https://csprd.daytonastate.edu/psc/CSPRD/EMPLOYEE/SA/s/WEBLIB_HCX_GN.H_SPRINGBOARD.FieldFormula.IScript_Main",
+                        "icon": "mdi:school"
+                    },
+                    {
                         "name": "Notion",
                         "url": "https://www.notion.so/florasoft",
                         "icon": "simple-icons:notion"
@@ -209,7 +209,7 @@
                 ]
             },
             {
-                "title": "Software Dev",
+                "title": "Development",
                 "color": "magenta",
                 "align": "left",
                 "links": [
@@ -229,14 +229,14 @@
                         "icon": "simple-icons:mongodb"
                     },
                     {
-                        "name": "Google Cloud",
-                        "url": "https://console.cloud.google.com",
-                        "icon": "simple-icons:googlecloud"
-                    },
-                    {
                         "name": "Cloudflare",
                         "url": "https://dash.cloudflare.com",
                         "icon": "simple-icons:cloudflare"
+                    },
+                    {
+                        "name": "Google Cloud",
+                        "url": "https://console.cloud.google.com",
+                        "icon": "simple-icons:googlecloud"
                     },
                     {
                         "name": "GoDaddy",
@@ -266,7 +266,7 @@
                 ]
             },
             {
-                "title": "Database & Assets",
+                "title": "Databases",
                 "color": "yellow",
                 "align": "left",
                 "links": [
@@ -289,27 +289,29 @@
                         "name": "DaFont",
                         "url": "https://www.dafont.com/themes.php",
                         "icon": "mdi:format-font"
-                    },
-                    {
-                        "name": "MDI Icons",
-                        "url": "https://materialdesignicons.com/",
-                        "icon": "mdi:vector-square"
-                    },
+                    },                   
                     {
                         "name": "NerdFonts",
                         "url": "https://www.nerdfonts.com/cheat-sheet",
                         "icon": "mdi:code-braces"
                     },
                     {
-                        "name": "Itch.io",
-                        "url": "https://itch.io/dashboard",
-                        "icon": "simple-icons:itchdotio"
+                        "name": "Books (Anna's Archive)",
+                        "url": "https://annas-archive.org/",
+                        "icon": "mdi:book-multiple"
                     },
                     {
-                        "name": "AccuWeather",
-                        "url": "https://www.accuweather.com",
-                        "icon": "mdi:weather-partly-cloudy"
+                        "name": "Nyaa",
+                        "url": "https://nyaa.si/",
+                        "icon": "mdi:cat"
+                    },
+                    {
+                        "name": "PirateBay",
+                        "url": "https://thepiratebay.org/index.html",
+                        "icon": "mdi:skull-crossbones"
                     }
+
+
                 ]
             },
             {
@@ -397,7 +399,7 @@
                 ]
             },
             {
-                "title": "Search & AI",
+                "title": "Search",
                 "color": "white",
                 "align": "left",
                 "links": [
@@ -432,14 +434,19 @@
                         "icon": "mdi:airplane"
                     },
                     {
-                        "name": "Nyaa",
-                        "url": "https://nyaa.si/",
-                        "icon": "mdi:cat"
+                        "name": "AccuWeather",
+                        "url": "https://www.accuweather.com",
+                        "icon": "mdi:weather-partly-cloudy"
                     },
                     {
-                        "name": "PirateBay",
-                        "url": "https://thepiratebay.org/index.html",
-                        "icon": "mdi:skull-crossbones"
+                        "name": "MDI Icons",
+                        "url": "https://materialdesignicons.com/",
+                        "icon": "mdi:vector-square"
+                    },
+                    {
+                        "name": "Itch.io",
+                        "url": "https://itch.io/dashboard",
+                        "icon": "simple-icons:itchdotio"
                     }
                 ]
             },
@@ -476,7 +483,7 @@
                 ]
             },
             {
-                "title": "Home Lab",
+                "title": "HomeLab",
                 "color": "green",
                 "align": "left",
                 "links": [
@@ -484,6 +491,12 @@
                         "name": "Home Assistant",
                         "url": "https://hass.shahrose.com/lovelace/default_view",
                         "icon": "simple-icons:homeassistant"
+                    },
+                    {
+                        "name": "RoseBooks Calibre",
+                        "url": "http://10.0.0.7:8083",
+                        "icon": "mdi:library",
+                        "old-url": "https://books.shahrose.com"
                     },
                     {
                         "name": "Fedora Server",
